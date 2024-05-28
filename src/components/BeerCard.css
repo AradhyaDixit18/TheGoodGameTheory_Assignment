@@ -1,0 +1,28 @@
+/* src/components/BeerCard.css */
+.beer-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px var(--card-shadow-color);
+    background-color: var(--card-background-color);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .beer-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  .beer-card h3 {
+    margin: 8px 0;
+    font-size: 1.5em;
+  }
+  
+  .beer-card p {
+    margin: 4px 0;
+    color: var(--text-color);
+  }
+  
